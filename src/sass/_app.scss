@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.banner{
+  background-color: aqua;
+  top: 0;
+  position: fixed;
+}
+
+.banner-scroll{
+  background-color: darkblue;
+  position: fixed;
+  top: 0;
+}
