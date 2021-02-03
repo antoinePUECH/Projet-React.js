@@ -1,5 +1,5 @@
 import '../sass/components/_header.scss';
-import logo from '../assets/fi-sr-apps.svg'
+import logo from '../assets/img/fi-sr-apps.svg'
 
 const Header = () => {
     return (
