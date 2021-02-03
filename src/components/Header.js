@@ -4,7 +4,6 @@ import logo from '../assets/img/fi-sr-apps.svg'
 const Header = () => {
     return (
         <header className="header">
-            <p>Quizz</p>
             <img src={logo}/>
         </header>
     )
