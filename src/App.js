@@ -1,6 +1,7 @@
 import React from 'react';
 import './sass/_app.scss';
 import Header from './components/Header'
+import Title from './components/Title'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
    <React.Fragment>
 
      <Header/>
+     <Title txt="NOS QUIZZ"/>
 
    </React.Fragment>
   );
