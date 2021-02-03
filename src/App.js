@@ -9,7 +9,6 @@ function App() {
 
      <Header/>
 
-    <Quizz1></Quizz1>
    </React.Fragment>
   );
 }
