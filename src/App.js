@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+
+import React from 'react';
 import './sass/_app.scss';
+import Header from './components/Header'
+import Quizz1 from './components/Quizz1'
+import Title from './components/Title'
+import Landing from './components/Landing'
+import {Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <React.Fragment>
+    <Switch>
+      <Route exact path="/">
+        <Header/>
+        <Title txt="NOS QUIZZ"/>
+      </Route>
+      <Route exact path="/quizz1">
+        <Quizz1></Quizz1>
+      </Route>
+      <Route exact path="/landing">
+        <Landing></Landing>
+      </Route>
+    </Switch>
+   </React.Fragment>
   );
 }
 
