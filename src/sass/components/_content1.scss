@@ -1,5 +1,6 @@
 @import "../helpers/_font.scss";
 @import "../helpers/_colors.scss";
+@import "../helpers/_responsive.scss";
 
 * {
     margin: 0;
@@ -17,7 +18,8 @@
     .txt{
         padding: 13% 0 13% 3%;
         font-family: $font;
-
+        width: 30vw;
+        z-index: 10;
         h1{
             font-size: 50px;
             font-weight: 800;
@@ -52,8 +54,48 @@
     }
 
     .illu {
+        z-index: 5;
+        width: 55vw;
         padding: 50px;
         display: flex;
         justify-content: center;
+    }
+}
+
+
+@media screen and (max-width : $resw1024) {
+    .content1{
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .txt{
+            width: 55vw;
+            padding: 13% 0;
+            text-align: center;
+        }
+        .illu>img {
+            width: 75vw;
+        }
+    }
+}
+
+@media screen and (max-width: $resw768){
+    .content1{
+        .txt{
+            width: 85vw;
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : $resw375){
+    .content1{
+        .txt{
+            button{
+                padding: 17px 50px;
+           }   
+        }
     }
 }
