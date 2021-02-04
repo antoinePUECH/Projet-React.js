@@ -6,13 +6,24 @@
 }
 
 header {
-    background-color : $dark;
     width: 100%;
     height : 12vh;
     display: flex;
     align-items: center;
+    z-index: 99;
     justify-content: center;
     line-height: 12vh;
+
+    &.header{
+        background-color:$dark;
+    }
+
+    &.header-scroll {
+        background-color: $blue;
+        top: 0;
+        left: 0;
+        position: sticky;
+    }
 
     img{
         width: 50px;
