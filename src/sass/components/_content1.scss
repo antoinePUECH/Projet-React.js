@@ -16,7 +16,7 @@
     justify-content: space-between;
 
     .txt{
-        padding: 13% 0 13% 3%;
+        padding: 13% 0 13% 8%;
         font-family: $font;
         width: 30vw;
         z-index: 10;
@@ -59,6 +59,15 @@
         padding: 50px;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width : $resw1225){
+    .content1{
+        
+        .txt{
+            padding: 13% 0 13% 3%; 
+        }
     }
 }
 

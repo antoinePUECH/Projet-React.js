@@ -3,6 +3,7 @@ import Header from './Header';
 import illu from '../assets/img/undraw2.png';
 import '../sass/components/_content1.scss';
 import {Link} from 'react-router-dom';
+import DarkMode from './Darkmode';
 
 
 const Landing = () => {
@@ -15,7 +16,7 @@ const Landing = () => {
                         Des Quizz incroyables
                     </h1>
                     <p>Inspiré par Yanis Elmaheh</p>
-                    <button href="" className="">
+                    <button className="">
                         <Link to="/quizzs">Voir nos quizz</Link>
                     </button>
                 </div>
@@ -23,6 +24,7 @@ const Landing = () => {
                     <img src={illu} alt="illu"/>
                 </div>
             </section>
+            <DarkMode></DarkMode>
         </React.Fragment>
        
     )
