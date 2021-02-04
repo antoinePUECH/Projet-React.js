@@ -26,12 +26,12 @@
         }
         p{
             padding-top: 1vh;
-            font-size: 10px;
+            font-size: 20px;
             font-weight: 300;
         }
         button{
             margin-top: 5vh;
-            padding: 10px 22px;
+            padding: 17px 50px;
             font-size: 16px;
             background-color: $orange;
             color: $white;
@@ -74,7 +74,7 @@
             text-align: center;
         }
         .illu>img {
-            width: 75vw;
+            width: 100vw;
         }
     }
 }
@@ -90,12 +90,12 @@
     }
 }
 
-@media screen and (max-width : $resw375){
+@media screen and (max-width : $resw414){
     .content1{
         .txt{
-            button{
-                padding: 17px 50px;
-           }   
+            p{
+                font-size: 16px;
+            }   
         }
     }
 }
