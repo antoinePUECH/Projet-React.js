@@ -4,19 +4,19 @@
       "titreQuestion": "test titre question",
       "propositions": [
         {
-          "reponse1": "la reponse D",
+          "reponseTitre": "la reponse D",
           "valide": false
         },
         {
-          "reponse2": "la reponse T",
+          "reponseTitre": "la reponse T",
           "valide": false
         },
         {
-          "reponse3": "la reponse L",
+          "reponseTitre": "la reponse L",
           "valide": true
         },
         {
-          "reponse4": "la reponse W",
+          "reponseTitre": "la reponse W",
           "valide": false
         }
       ]
@@ -25,19 +25,19 @@
       "titreQuestion": "test titre deuxieme question",
       "propositions": [
         {
-          "reponse1": "la reponse D",
+          "reponseTitre": "la reponse D",
           "valide": false
         },
         {
-          "reponse2": "la reponse T",
+          "reponseTitre": "la reponse T",
           "valide": false
         },
         {
-          "reponse3": "la reponse L",
+          "reponseTitre": "la reponse L",
           "valide": true
         },
         {
-          "reponse4": "la reponse W",
+          "reponseTitre": "la reponse W",
           "valide": false
         }
       ]
@@ -46,19 +46,19 @@
       "titreQuestion": "test titre deuxieme question",
       "propositions": [
         {
-          "reponse1": "la reponse D",
+          "reponseTitre": "la reponse D",
           "valide": false
         },
         {
-          "reponse2": "la reponse T",
+          "reponseTitre": "la reponse T",
           "valide": false
         },
         {
-          "reponse3": "la reponse L",
+          "reponseTitre": "la reponse L",
           "valide": true
         },
         {
-          "reponse4": "la reponse W",
+          "reponseTitre": "la reponse W",
           "valide": false
         }
       ]
@@ -67,19 +67,19 @@
       "titreQuestion": "test titre deuxieme question",
       "propositions": [
         {
-          "reponse1": "la reponse D",
+          "reponseTitre": "la reponse D",
           "valide": false
         },
         {
-          "reponse2": "la reponse T",
+          "reponseTitre": "la reponse T",
           "valide": false
         },
         {
-          "reponse3": "la reponse L",
+          "reponseTitre": "la reponse L",
           "valide": true
         },
         {
-          "reponse4": "la reponse W",
+          "reponseTitre": "la reponse W",
           "valide": false
         }
       ]
@@ -88,19 +88,19 @@
       "titreQuestion": "test titre deuxieme question",
       "propositions": [
         {
-          "reponse1": "la reponse D",
+          "reponseTitre": "la reponse D",
           "valide": false
         },
         {
-          "reponse2": "la reponse T",
+          "reponseTitre": "la reponse T",
           "valide": false
         },
         {
-          "reponse3": "la reponse L",
+          "reponseTitre": "la reponse L",
           "valide": true
         },
         {
-          "reponse4": "la reponse W",
+          "reponseTitre": "la reponse W",
           "valide": false
         }
       ]
