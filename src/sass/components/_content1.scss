@@ -1,0 +1,50 @@
+@import "../helpers/_font.scss";
+@import "../helpers/_colors.scss";
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10vh 5vw;
+    justify-content: space-between;
+
+    .txt{
+        padding: 13% 0 13% 3%;
+        font-family: $font;
+
+        h1{
+            font-size: 50px;
+            font-weight: 800;
+        }
+        p{
+            padding-top: 1vh;
+            font-size: 10px;
+            font-weight: 300;
+        }
+        button{
+            margin-top: 5vh;
+            padding: 10px 22px;
+            font-size: 16px;
+            background-color: $orange;
+            color: $white;
+            border: transparent;
+
+            &:hover{
+                background-color: $dark;
+            }
+
+        }
+    }
+
+    .illu {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
