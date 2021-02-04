@@ -16,7 +16,7 @@ const Landing = () => {
                     </h1>
                     <p>Inspiré par Yanis Elmaheh</p>
                     <button href="" className="">
-                        <Link to="/">Voir nos quizz</Link>
+                        <Link to="/quizzs">Voir nos quizz</Link>
                     </button>
                 </div>
                 <div className="illu">

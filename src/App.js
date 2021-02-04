@@ -10,15 +10,15 @@ function App() {
   return (
    <React.Fragment>
     <Switch>
-      <Route exact path="/">
+    <Route exact path="/">
+        <Landing></Landing>
+      </Route>
+      <Route exact path="/quizzs">
         <Header/>
         <Title txt="NOS QUIZZ"/>
       </Route>
       <Route exact path="/quizz1">
         <Quizz1></Quizz1>
-      </Route>
-      <Route exact path="/landing">
-        <Landing></Landing>
       </Route>
     </Switch>
    </React.Fragment>
