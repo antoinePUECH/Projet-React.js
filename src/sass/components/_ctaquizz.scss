@@ -1,0 +1,23 @@
+@import "../helpers/_colors.scss";
+
+button{
+    padding: 17px 50px;
+    font-size: 16px;
+    background-color: $orange;
+    color: $white;
+    border: transparent;
+    text-decoration: none;
+
+    a{
+        color : $white;
+        text-decoration: none;
+    }
+
+    &:hover{
+        background-color: $dark;
+        text-decoration: none;
+        color : $white;
+        transition: all 0.3s ease-in-out;
+    }
+
+}
