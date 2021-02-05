@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 import '../sass/components/_header.scss';
 import logo from '../assets/img/fi-sr-apps.svg'
+import CtaQuizz from '../components/CtaQuizz';
 
 function Header() {
 
@@ -15,6 +16,7 @@ function Header() {
     return (
         <header role="banner" className={scroll ? "header-scroll" : "header"}>
             <img src={logo} alt="logo"/>
+            <CtaQuizz/>
         </header>
     )
 }

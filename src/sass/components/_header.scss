@@ -3,15 +3,17 @@
 * {
     margin: 0;
     padding : 0;
+    box-sizing: border-box;
 }
 
 header {
     width: 100%;
+    padding: 0 5vw;
     height : 12vh;
     display: flex;
     align-items: center;
     z-index: 99;
-    justify-content: center;
+    justify-content: space-between;
     line-height: 12vh;
 
     &.header{
