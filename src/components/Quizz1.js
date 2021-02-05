@@ -1,37 +1,43 @@
 import React, { useState } from 'react';
 import data from '../data/Quizz1.json'
-import { useHistory } from 'react-router-dom';
+import '../sass/components/_quizz1.scss'
+import { Link, useHistory } from 'react-router-dom';
 
 function Quizz1() {
-    const [question, setQuestion] = useState(0)
+    let [question, setQuestion] = useState(0)
     const [score, setScore] = useState(0)
-    const Quizz = data.Quizz1[question]
-    const isValid = (valide) => {
-      if (valide) {
+    let router = useHistory();
+    const Quizz = data.Quizz1
+    const GoToScore = (score) => {
+      question = 0
+      router.push({
+          pathname: '/scoreShow',
+          state: { detail: score }
+      });
+   };
+    if (Quizz.length < question + 1) {
+      GoToScore(score)
+    } else {}
+    const isValid = (isValid) => {
+      if (isValid) {
         setScore(score + 1)
         setQuestion(question + 1)
       } else {
         setQuestion(question + 1)
       }
     }
-    let history = useHistory();
-
-    const paramsRoute = (score) => {
-       history.push({
-           pathname: '/scoreShow',
-           state: { detail: score }
-       });
-    };
     return(
         <div className="quizz">
-              <h1> Question n° {question + 1} <span>/ {data.Quizz1.length} </span></h1> 
-          <p>Titre: {Quizz.titreQuestion}</p>
-          <div>
-            {Quizz.propositions.map((option) => (
-              <button onClick={() => isValid(option.valide)}> {option.reponseTitre} </button>
+          <h1 className="quizzTitle">Quizz sur la bière !</h1>
+          <h1 className="numberQuestion"> Question n° {question + 1} <span>/ {data.Quizz1.length} </span></h1> 
+          <div className="contentQuestion">
+            <p id="questionTitle">{Quizz[question].questionTitle} ?</p>
+          <div className="contentAnswer">
+            {Quizz[question].answers.map((option) => (
+              <button className="answerBtn" onClick={() => isValid(option.isValid)}> {option.answerTitle} </button>
             ))}
           </div>
-          <button onClick= {() => paramsRoute(score)}>test</button>
+          </div>
         </div>
     )
 }

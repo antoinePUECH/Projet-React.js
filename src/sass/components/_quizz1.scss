@@ -1,0 +1,51 @@
+@import "../helpers/font";
+@import "../helpers/colors";
+
+.quizz {
+    width: 100%;
+    text-align: center;
+
+    .quizzTitle {
+        color: $blue;
+        font-size: 4rem;
+        font-family: $font;
+        font-weight: 500;
+        margin: 25px 0;
+    }
+    .numberQuestion {
+        font-family: $font;
+        color: $orange;
+
+        span {
+            color: $blue;
+        }
+    }
+    .contentQuestion {
+        display: inline-table;
+
+        #questionTitle {
+            font-family: $font;
+            color: $black;
+            padding-top: 50px;
+            font-size: 1.5rem;
+            font-weight: lighter;
+        }
+        .contentAnswer {
+            display: flex;
+            justify-content: center;
+            flex: wrap;
+            width: 900px;
+            flex-wrap: wrap;
+
+            .answerBtn {
+                color: $white;
+                font-family: $font;
+                font-size: 1.2rem;
+                font-weight: bold;
+                padding: 17px 15px;
+                width: 320px;
+                margin: 50px;
+            }
+        }
+    }
+}
