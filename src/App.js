@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './sass/_app.scss';
 import Header from './components/Header'
@@ -11,7 +12,10 @@ function App() {
   return (
    <React.Fragment>
     <Switch>
-      <Route exact path="/">
+    <Route exact path="/">
+        <Landing></Landing>
+      </Route>
+      <Route exact path="/quizzs">
         <Header/>
         <Title txt="NOS QUIZZ"/>
       </Route>
