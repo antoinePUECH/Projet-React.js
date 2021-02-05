@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './sass/_app.scss';
 import Header from './components/Header'
