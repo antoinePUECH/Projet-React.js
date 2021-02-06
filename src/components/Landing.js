@@ -1,29 +1,26 @@
 import React from 'react';
-import Header from './Header';
 import illu from '../assets/img/undraw2.png';
 import '../sass/components/_content1.scss';
-import {Link} from 'react-router-dom';
-import DarkMode from './Darkmode';
+//import DarkMode from './Darkmode';
 import CtaQuizz from './CtaQuizz';
 
 
 const Landing = () => {
     return (
         <React.Fragment>
-            <Header></Header> 
             <section className="content1">
                 <div className="txt">
                     <h1>
-                        Des Quizz incroyables
+                        En attendant <br/>
+                        la fin du covid
                     </h1>
-                    <p>Inspiré par Yanis Elmaheh</p>
-                    <CtaQuizz></CtaQuizz>
+                    <p>Travaillez votre culture de l'alcool</p>
+                    <CtaQuizz href="/quizzs" txt="Voir nos quizz"></CtaQuizz>
                 </div>
                 <div className="illu">
                     <img src={illu} alt="illu"/>
                 </div>
             </section>
-            <DarkMode></DarkMode>
         </React.Fragment>
        
     )

@@ -21,7 +21,7 @@ function Header() {
                     <img src={logo} alt="logo"/>
                 </Link>
             </div>
-            <CtaQuizz/>
+            <CtaQuizz href="/quizzs" txt="Nos quizz"></CtaQuizz>
         </header>
     )
 }
