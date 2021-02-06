@@ -7,12 +7,23 @@
     padding : 0;
     box-sizing: border-box;
 }
+.welcome {
+    font-size: 4rem;
+    text-align: center;
+    font-family: $font;
+    color: $orange;
+    text-transform: uppercase;
+    padding-top: 3vh;
 
+    span {
+        color: $blue;
+    }
+}
 .content1{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10vh 5vw;
+    padding: 5vh 5vw;
     justify-content: space-between;
 
     .txt{

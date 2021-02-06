@@ -8,6 +8,7 @@ import CtaQuizz from './CtaQuizz';
 const Landing = () => {
     return (
         <React.Fragment>
+            <h1 className="welcome">Bienvenue sur nos <span>quizz</span> !</h1>
             <section className="content1">
                 <div className="txt">
                     <h1>
