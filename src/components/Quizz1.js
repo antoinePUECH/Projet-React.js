@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import data from '../data/Quizz1.json'
-import '../sass/components/_quizz1.scss'
+import '../sass/components/_quizz.scss'
 import { useHistory } from 'react-router-dom';
 
 function Quizz1() {
@@ -12,7 +12,10 @@ function Quizz1() {
       question = 0
       router.push({
           pathname: '/scoreShow',
-          state: { detail: score }
+          state: { 
+              detail: score,
+              type: "de la bière"
+            }
       });
    };
     if (Quizz.length < question + 1) {

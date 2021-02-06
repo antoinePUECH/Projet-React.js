@@ -17,7 +17,7 @@ const Landing = () => {
                         Des Quizz incroyables
                     </h1>
                     <p>Inspiré par Yanis Elmaheh</p>
-                    <CtaQuizz></CtaQuizz>
+                    <CtaQuizz route="/quizzs" text="Voir nos quizz"></CtaQuizz>
                 </div>
                 <div className="illu">
                     <img src={illu} alt="illu"/>

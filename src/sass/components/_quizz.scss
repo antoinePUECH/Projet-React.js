@@ -2,9 +2,8 @@
 @import "../helpers/colors";
 
 .quizz {
-    width: 100%;
     text-align: center;
-
+    display: grid;
     .quizzTitle {
         color: $blue;
         font-size: 4rem;
@@ -21,8 +20,8 @@
         }
     }
     .contentQuestion {
-        display: inline-table;
-
+        display: grid;
+        justify-content: center;
         #questionTitle {
             font-family: $font;
             color: $black;
