@@ -6,7 +6,9 @@ button{
     background-color: $orange;
     color: $white;
     border: transparent;
+    border-radius: 5px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 
     a{
         color : $white;
