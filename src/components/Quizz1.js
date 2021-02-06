@@ -14,7 +14,8 @@ function Quizz1() {
           pathname: '/scoreShow',
           state: { 
               detail: score,
-              type: "de la bière"
+              type: "de la bière",
+              quizzId: 1
             }
       });
    };
