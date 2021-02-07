@@ -16,7 +16,7 @@ const Landing = () => {
                         la fin du covid
                     </h1>
                     <p>Travaillez votre culture de l'alcool</p>
-                    <CtaQuizz href="/quizzs" txt="Voir nos quizz"></CtaQuizz>
+                    <CtaQuizz to="/quizzs" txt="Voir nos quizz"></CtaQuizz>
                 </div>
                 <div className="illu">
                     <img src={illu} alt="illu"/>

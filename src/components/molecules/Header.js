@@ -39,7 +39,7 @@ function Header() {
                 <button onClick= {() => getWeatherAPI()}>Cherchez</button>
                 <p id="zone_meteo"></p>
             </div>
-            <CtaQuizz href="/quizzs" txt="Nos quizz"></CtaQuizz>
+            <CtaQuizz to="/quizzs" txt="Nos quizz"></CtaQuizz>
         </header>
     )
 }

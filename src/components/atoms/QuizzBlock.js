@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import '../../sass/components/_quizzbloc.scss';
 
 const QuizzBlock = (props) => {
     return(
         <div className="quizzBloc">
-            <a href={props.href}>
+            <Link to={props.to}>
                 <div className="fond">
                     <img src={props.img} alt="imgQuizz"/>
                 </div>
@@ -11,7 +12,7 @@ const QuizzBlock = (props) => {
                     <p>QUIZZ</p>
                     <h2>{props.titleQuizz}</h2>
                 </div>
-            </a>
+            </Link>
         </div>
     )
 }

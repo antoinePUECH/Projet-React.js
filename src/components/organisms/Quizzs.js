@@ -12,10 +12,10 @@ function Quizz1() {
         <div className="homeQuizz">
             <Title txt="Choisissez votre quizz !"/>
             <div className="allQuizz">
-                <QuizzBlock img={beer} href="/quizz1" titleQuizz="Bière"></QuizzBlock>
-                <QuizzBlock img={whisky} href="/quizz2" titleQuizz="Whisky"></QuizzBlock>
-                <QuizzBlock img={vodka} href="/quizz3" titleQuizz="Vodka"></QuizzBlock>
-                <QuizzBlock img={vin} href="/quizz4" titleQuizz="Vin"></QuizzBlock>
+                <QuizzBlock img={beer} to="/quizz1" titleQuizz="Bière"></QuizzBlock>
+                <QuizzBlock img={whisky} to="/quizz2" titleQuizz="Whisky"></QuizzBlock>
+                <QuizzBlock img={vodka} to="/quizz3" titleQuizz="Vodka"></QuizzBlock>
+                <QuizzBlock img={vin} to="/quizz4" titleQuizz="Vin"></QuizzBlock>
             </div>
         </div>
     )

@@ -3,7 +3,7 @@ import '../../sass/components/_ctaquizz.scss';
 
 const CtaQuizz = (props) => {
     return(
-        <Link to={props.href}>
+        <Link to={props.to}>
             <button className="ctaQuizz">
                 {props.txt}
             </button>
