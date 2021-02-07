@@ -81,6 +81,9 @@
 }
 
 @media screen and (max-width: $resw768){
+    .welcome {
+        font-size: 40px;
+    }
     .content1{
         .txt{
             width: 85vw;

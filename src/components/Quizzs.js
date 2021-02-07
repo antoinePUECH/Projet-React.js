@@ -10,7 +10,7 @@ function Quizz1() {
 
     return(
         <div className="homeQuizz">
-            <Title txt="NOS QUIZZ"/>
+            <Title txt="Choisissez votre quizz !"/>
             <div className="allQuizz">
                 <QuizzBlock img={beer} href="/quizz1" titleQuizz="Bière"></QuizzBlock>
                 <QuizzBlock img={whisky} href="/quizz2" titleQuizz="Whisky"></QuizzBlock>

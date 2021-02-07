@@ -6,17 +6,19 @@ import { useHistory } from 'react-router-dom';
 function Quizz1() {
     let [question, setQuestion] = useState(0)
     const [score, setScore] = useState(0)
-    let router = useHistory();
+
+    let router = useHistory()
+    
     const Quizz = data.Quizz1
     const GoToScore = (score) => {
       question = 0
       router.push({
           pathname: '/scoreShow',
           state: { 
-              detail: score,
-              type: "de la bière",
-              quizzId: 1
-            }
+            detail: score,
+            type: "de la bière",
+            quizzId: 1
+          }
       });
    };
     if (Quizz.length < question + 1) {

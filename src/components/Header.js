@@ -13,12 +13,12 @@ function Header() {
             setScroll(window.scrollY > 10)
         });
     }, [])
-
     var showData = function(data) {
+        var search = document.getElementById("search").value;
         console.log("donnees api", data)
         //alert("Meteo temp  : "  + data.main.temp);
         var element = document.getElementById("zone_meteo");
-        element.innerHTML = "La temperature est de " + data.main.temp + "°C";
+        element.innerHTML = "La temperature à "+search+" est de " + data.main.temp + "°C";
     }
     function getWeatherAPI() {
         var search = document.getElementById("search").value;
@@ -41,9 +41,11 @@ function Header() {
                     <img src={logo} alt="logo"/>
                 </Link>
             </div>
-            <button onClick= {() => getWeatherAPI()}>Cherchez</button>
-            <input type="text" id="search"></input>
-            <p id="zone_meteo"></p>
+            <div className="meteo">
+                <input type="text" id="search" placeholder="Cherchez une ville"></input>
+                <button onClick= {() => getWeatherAPI()}>Cherchez</button>
+                <p id="zone_meteo"></p>
+            </div>
             <CtaQuizz href="/quizzs" txt="Nos quizz"></CtaQuizz>
         </header>
     )
