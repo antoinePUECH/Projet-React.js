@@ -7,6 +7,8 @@ import Landing from './components/Landing';
 import {Switch, Route} from 'react-router-dom';
 import ScoreShow from './components/ScoreShow';
 import Quizz2 from './components/Quizz2';
+import Quizz3 from './components/Quizz3';
+import Quizz4 from './components/Quizz4';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
       </Route>
       <Route exact path="/quizz2">
         <Quizz2></Quizz2>
+      </Route>
+      <Route exact path="/quizz3">
+        <Quizz3></Quizz3>
+      </Route>
+      <Route exact path="/quizz4">
+        <Quizz4></Quizz4>
       </Route>
       <Route exact path="/landing">
         <Landing></Landing>

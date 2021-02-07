@@ -1,0 +1,214 @@
+{
+    "Quizz4": [
+      {
+        "questionTitle": "Quelle spécificité du raisin attribue la couleur du vin",
+        "answers": [
+          {
+            "answerTitle": "La pulpe",
+            "isValid": false
+          },
+          {
+            "answerTitle": "La peau",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Les pépins",
+            "isValid": false
+          },
+          {
+            "answerTitle": "La race des vignes",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Comment appelle-t-on la science du vin",
+        "answers": [
+          {
+            "answerTitle": "Oenologie",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Vinologie",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Bordeaulogie",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Raisinologie",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "De quelle région provient le 'Chateaux Margaux'",
+        "answers": [
+          {
+            "answerTitle": "De Bourgogne",
+            "isValid": false
+          },
+          {
+            "answerTitle": "De Loire",
+            "isValid": false
+          },
+          {
+            "answerTitle": "De Bordeaux",
+            "isValid": false
+          },
+          {
+            "answerTitle": "De Nouvelle-Aquitaine",
+            "isValid": true
+          }
+        ]
+      },
+      {
+        "questionTitle": "A quelle température doit être conservé le vin rouge en moyenne",
+        "answers": [
+          {
+            "answerTitle": "9°C",
+            "isValid": false
+          },
+          {
+            "answerTitle": "10°C",
+            "isValid": false
+          },
+          {
+            "answerTitle": "11°C",
+            "isValid": false
+          },
+          {
+            "answerTitle": "12°C",
+            "isValid": true
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel vin a obtenu le prix le plus élevée (482 000€) durant une enchère",
+        "answers": [
+          {
+            "answerTitle": "Henri Jayer Richebourge Grand cru (1967)",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Domaine Leflaive Montrachet Grand cru (1986)",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Domaine Leroy Musigny Grand cru (1973)",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Domaine Romanée-conti, Romanée-Conti Grand cru (1945)",
+            "isValid": true
+          }
+        ]
+      },
+      {
+        "questionTitle": "Avec quel plat le vin blanc (moelleux) s'associe le mieux",
+        "answers": [
+          {
+            "answerTitle": "Foie gras",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Saumon fumé",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Lapin",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Dinde",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "De quelle région provient le 'Château de Beaucastel",
+        "answers": [
+          {
+            "answerTitle": "Côtes du Rhône",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Bordeaux",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Alsace",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Lanquedoc-Roussillon",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "En quelle année la viticulture est apparue",
+        "answers": [
+          {
+            "answerTitle": "7000 Avant J-C",
+            "isValid": true
+          },
+          {
+            "answerTitle": "3000 Avant J-C",
+            "isValid": false
+          },
+          {
+            "answerTitle": "367",
+            "isValid": false
+          },
+          {
+            "answerTitle": "748",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quelle région possède le plus vieux vignoble de France",
+        "answers": [
+          {
+            "answerTitle": "Bordeaux",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Vallée de la Loire",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Auvergne-Rhône-Alpes",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Lanquedoc-Roussillon",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel pays est le plus grand consommateur de vin au monde",
+        "answers": [
+          {
+            "answerTitle": "La France",
+            "isValid": false
+          },
+          {
+            "answerTitle": "L'Italie",
+            "isValid": false
+          },
+          {
+            "answerTitle": "La Chine",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Les Etats-Unis",
+            "isValid": true
+          }
+        ]
+      }
+    ]
+  }

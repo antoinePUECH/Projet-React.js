@@ -15,23 +15,16 @@ function Header() {
     }, [])
     var showData = function(data) {
         var search = document.getElementById("search").value;
-        console.log("donnees api", data)
-        //alert("Meteo temp  : "  + data.main.temp);
         var element = document.getElementById("zone_meteo");
         element.innerHTML = "La temperature à "+search+" est de " + data.main.temp + "°C";
     }
     function getWeatherAPI() {
         var search = document.getElementById("search").value;
         var url = "https://api.openweathermap.org/data/2.5/weather?q="+search+"&appid=c21a75b667d6f7abb81f118dcf8d4611&units=metric"
-        $.get(url, showData).done(function() {
-            //alert( "second success" );
-          })
+        $.get(url, showData).done(function() {})
           .fail(function() {
             alert( "Veuillez insérer un nom de ville correcte" );
           })
-          .always(function() {
-            //alert( "finished" );
-          });
     }
 
     return (

@@ -14,8 +14,8 @@ function Quizz3() {
           pathname: '/scoreShow',
           state: { 
             detail: score,
-            type: "du whisky",
-            quizzId: 2
+            type: "de la vodka",
+            quizzId: 3
           }
       });
    };
@@ -30,6 +30,7 @@ function Quizz3() {
         setQuestion(question + 1)
       }
     }
+    const random = Quizz[question].answers.sort(() => Math.random() - Math.random()).find(() => true)
     return(
         <div className="quizz">
             <h1 className="quizzTitle">Quizz sur la vodka !</h1>
@@ -37,7 +38,7 @@ function Quizz3() {
             <div className="contentQuestion">
                 <p id="questionTitle">{Quizz[question].questionTitle} ?</p>
             <div className="contentAnswer">  
-                {Quizz[question].answers.map((option) => (
+                {random && Quizz[question].answers.map((option) => (
                     <button className="answerBtn" onClick={() => isValid(option.isValid)}> {option.answerTitle} </button>
                 ))}
             </div>
