@@ -1,8 +1,10 @@
 @import "../helpers/_colors.scss";
+@import "../helpers/font";
 
 button{
-    padding: 17px 50px;
-    font-size: 16px;
+    padding: 17px 40px;
+    font-size: 18px;
+    font-family: $font;
     background-color: $orange;
     color: $white;
     border: transparent;

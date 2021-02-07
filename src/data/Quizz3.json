@@ -1,0 +1,214 @@
+{
+    "Quizz3": [
+      {
+        "questionTitle": "Quel ingrédient ne permet pas de produire de la vodka traditionnelle",
+        "answers": [
+          {
+            "answerTitle": "La poire",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Les céréales (seigle, blé)",
+            "isValid": false
+          },
+          {
+            "answerTitle": "La pommes de terre",
+            "isValid": false
+          },
+          {
+            "answerTitle": "La betterave",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel plat est traditionnellement associé à la vodka",
+        "answers": [
+          {
+            "answerTitle": "La tarte tatin",
+            "isValid": false
+          },
+          {
+            "answerTitle": "La flamekueche",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Le caviar",
+            "isValid": true
+          },
+          {
+            "answerTitle": "La pomme d'amour",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "A partir de combien de shot la vodka devient-t-elle dangereuse",
+        "answers": [
+          {
+            "answerTitle": "3",
+            "isValid": false
+          },
+          {
+            "answerTitle": "6",
+            "isValid": false
+          },
+          {
+            "answerTitle": "9",
+            "isValid": true
+          },
+          {
+            "answerTitle": "12",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "D'où vient le nom vodka",
+        "answers": [
+          {
+            "answerTitle": "Du nom de la personne qui la découverte",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Du mot slave 'vodka' qui veux dire 'eau'",
+            "isValid": true
+          },
+          {
+            "answerTitle": "De la ville où ont été distillées les premières vodkas",
+            "isValid": false
+          },
+          {
+            "answerTitle": "D'un voyageur dépressif russe",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel est la particularité de la vodka polonaise",
+        "answers": [
+          {
+            "answerTitle": "Elle a un goût de caramel",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Elle est pétillante",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Elle est aromatisée à l'herbe de bison",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Elle à été produit comme arme de guerre (cocktail molotov)",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel est le pourcentage de décès en Russie lié à la vodka",
+        "answers": [
+          {
+            "answerTitle": "15%",
+            "isValid": false
+          },
+          {
+            "answerTitle": "25%",
+            "isValid": false
+          },
+          {
+            "answerTitle": "35%",
+            "isValid": true
+          },
+          {
+            "answerTitle": "45%",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel cocktail ne comprend pas de vodka",
+        "answers": [
+          {
+            "answerTitle": "Le Cosmopolitan",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Le French martini",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Le Blue lemon",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Le Bloody mary",
+            "isValid": true
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel pays est le plus gros consommateur de vodka au monde",
+        "answers": [
+          {
+            "answerTitle": "Russie",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Pologne",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Serbie",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Biélorussie",
+            "isValid": true
+          }
+        ]
+      },
+      {
+        "questionTitle": "Avant 1996, quel pays à interdit le mélange 'vodka + Redbull'",
+        "answers": [
+          {
+            "answerTitle": "France",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Irlande",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Espagne",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Allemagne",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel taux d'alcoolémie correspond à un shot de vodka",
+        "answers": [
+          {
+            "answerTitle": "0,3g/l",
+            "isValid": false
+          },
+          {
+            "answerTitle": "0,5g/l",
+            "isValid": true
+          },
+          {
+            "answerTitle": "0,7g/l",
+            "isValid": false
+          },
+          {
+            "answerTitle": "1g/l",
+            "isValid": false
+          }
+        ]
+      }
+    ]
+  }

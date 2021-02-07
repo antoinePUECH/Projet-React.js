@@ -13,9 +13,10 @@ function Quizz2() {
       router.push({
           pathname: '/scoreShow',
           state: { 
-              detail: score,
-              type: "du whisky"
-            }
+            detail: score,
+            type: "du whisky",
+            quizzId: 2
+          }
       });
    };
     if (Quizz.length < question + 1) {
@@ -29,18 +30,19 @@ function Quizz2() {
         setQuestion(question + 1)
       }
     }
+    const random = Quizz[question].answers.sort(() => Math.random() - Math.random()).find(() => true)
     return(
         <div className="quizz">
-          <h1 className="quizzTitle">Quizz sur le whisky !</h1>
-          <h1 className="numberQuestion"> Question n° {question + 1} <span>/ {data.Quizz2.length} </span></h1> 
-          <div className="contentQuestion">
-            <p id="questionTitle">{Quizz[question].questionTitle} ?</p>
-          <div className="contentAnswer">
-            {Quizz[question].answers.map((option) => (
-              <button className="answerBtn" onClick={() => isValid(option.isValid)}> {option.answerTitle} </button>
-            ))}
-          </div>
-          </div>
+            <h1 className="quizzTitle">Quizz sur le whisky !</h1>
+            <h1 className="numberQuestion"> Question n° {question + 1} <span>/ {data.Quizz2.length} </span></h1> 
+            <div className="contentQuestion">
+                <p id="questionTitle">{Quizz[question].questionTitle} ?</p>
+            <div className="contentAnswer">  
+                {random && Quizz[question].answers.map((option) => (
+                    <button className="answerBtn" onClick={() => isValid(option.isValid)}> {option.answerTitle} </button>
+                ))}
+            </div>
+            </div>
         </div>
     )
 }
