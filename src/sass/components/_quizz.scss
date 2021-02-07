@@ -1,5 +1,6 @@
 @import "../helpers/font";
 @import "../helpers/colors";
+@import "../helpers/responsive";
 
 .quizz {
     text-align: center;
@@ -34,7 +35,7 @@
             display: flex;
             justify-content: center;
             flex: wrap;
-            width: 900px;
+            width: 950px;
             flex-wrap: wrap;
 
             .answerBtn {
@@ -45,6 +46,42 @@
                 padding: 17px 15px;
                 width: 320px;
                 margin: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : $resw768) {
+    .quizz {
+        .contentQuestion {
+            .contentAnswer {
+                width: 90vw;
+                .answerBtn{
+                    margin: 25px;
+                    width: 30vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : $resw500) {
+    .quizz {
+        .quizzTitle{
+            font-size: 3rem;
+        }
+        .contentQuestion {
+            #questionTitle {
+                font-size: 1.2rem;
+            }
+            .contentAnswer {
+                margin-top: 15px;
+                .answerBtn{
+                    margin: 10px;
+                    width: 35vw;
+                    padding: 10px 10px;
+                    font-size: 1rem;
+                }
             }
         }
     }
