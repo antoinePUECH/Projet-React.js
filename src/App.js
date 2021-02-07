@@ -15,7 +15,7 @@ function App() {
    <React.Fragment>
      <Header/>
     <Switch>
-    <Route exact path="/">
+      <Route exact path="/">
         <Landing></Landing>
       </Route>
       <Route exact path="/quizzs">

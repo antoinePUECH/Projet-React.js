@@ -1,4 +1,6 @@
 @import '../helpers/colors';
+@import '../helpers/font';
+@import '../helpers/responsive';
 
 .homeQuizz {
     display: flex;
@@ -12,5 +14,12 @@
     }
     .title {
         color: $orange;
+        font-family: $font;
+    }
+}
+
+@media screen and (max-width : $resw500){
+    .title {
+        font-size: 1.5rem;
     }
 }
