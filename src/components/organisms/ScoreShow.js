@@ -27,7 +27,7 @@ const ScoreShow = () => {
         <div className="scoreShow">
             <h1 className="score">Votre score est de <span>{score}</span> !</h1>
             {truc()}
-            <CtaQuizz href={quizzRoute} txt="Réessayer !"></CtaQuizz>
+            <CtaQuizz to={quizzRoute} txt="Réessayer !"></CtaQuizz>
         </div>
     )
 }
