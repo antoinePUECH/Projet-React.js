@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import '../sass/components/_ctaquizz.scss';
+import '../../sass/components/_ctaquizz.scss';
 
 const CtaQuizz = (props) => {
     return(

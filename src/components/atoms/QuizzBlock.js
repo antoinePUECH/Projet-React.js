@@ -1,5 +1,4 @@
-import {Link} from 'react-router-dom';
-import '../sass/components/_quizzbloc.scss';
+import '../../sass/components/_quizzbloc.scss';
 
 const QuizzBlock = (props) => {
     return(

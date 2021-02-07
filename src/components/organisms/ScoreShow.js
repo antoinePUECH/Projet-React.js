@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
-import '../sass/components/_scoreshow.scss'
-import CtaQuizz from './CtaQuizz';
+import '../../sass/components/_scoreshow.scss'
+import CtaQuizz from '../atoms/CtaQuizz';
 
 const ScoreShow = () => {
     const location = useLocation();

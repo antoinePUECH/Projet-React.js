@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import data from '../data/Quizz1.json'
-import '../sass/components/_quizz.scss'
+import data from '../../data/Quizz1.json'
+import '../../sass/components/_quizz.scss'
 import { useHistory } from 'react-router-dom';
 
 function Quizz1() {

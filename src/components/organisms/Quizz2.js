@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
-import data from '../data/Quizz4.json'
-import '../sass/components/_quizz.scss'
+import data from '../../data/Quizz2.json'
+import '../../sass/components/_quizz.scss'
 import { useHistory } from 'react-router-dom';
 
-function Quizz4() {
+function Quizz2() {
     let [question, setQuestion] = useState(0)
     const [score, setScore] = useState(0)
     let router = useHistory();
-    const Quizz = data.Quizz4
+    const Quizz = data.Quizz2
     const GoToScore = (score) => {
       question = 0
       router.push({
           pathname: '/scoreShow',
           state: { 
             detail: score,
-            type: "du vin",
-            quizzId: 4
+            type: "du whisky",
+            quizzId: 2
           }
       });
    };
@@ -33,8 +33,8 @@ function Quizz4() {
     const random = Quizz[question].answers.sort(() => Math.random() - Math.random()).find(() => true)
     return(
         <div className="quizz">
-            <h1 className="quizzTitle">Quizz sur le vin !</h1>
-            <h1 className="numberQuestion"> Question n° {question + 1} <span>/ {data.Quizz4.length} </span></h1> 
+            <h1 className="quizzTitle">Quizz sur le whisky !</h1>
+            <h1 className="numberQuestion"> Question n° {question + 1} <span>/ {data.Quizz2.length} </span></h1> 
             <div className="contentQuestion">
                 <p id="questionTitle">{Quizz[question].questionTitle} ?</p>
             <div className="contentAnswer">  
@@ -47,4 +47,4 @@ function Quizz4() {
     )
 }
 
-export default Quizz4
+export default Quizz2

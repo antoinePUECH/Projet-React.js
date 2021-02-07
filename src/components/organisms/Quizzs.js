@@ -1,10 +1,10 @@
-import QuizzBlock from './QuizzBlock';
-import Title from './Title';
-import '../sass/components/_homequizz.scss';
-import beer from '../assets/img/beer.jpeg';
-import whisky from '../assets/img/whisky.jpeg';
-import vodka from '../assets/img/vodka.jpeg';
-import vin from '../assets/img/vin.jpeg';
+import QuizzBlock from './../atoms/QuizzBlock';
+import Title from './../atoms/Title';
+import '../../sass/components/_homequizz.scss';
+import beer from '../../assets/img/beer.jpeg';
+import whisky from '../../assets/img/whisky.jpeg';
+import vodka from '../../assets/img/vodka.jpeg';
+import vin from '../../assets/img/vin.jpeg';
 
 function Quizz1() {
 

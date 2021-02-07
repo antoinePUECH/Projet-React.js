@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import $ from 'jquery'
-import '../sass/components/_header.scss';
-import logo from '../assets/img/fi-sr-apps.svg'
-import CtaQuizz from '../components/CtaQuizz';
+import '../../sass/components/_header.scss';
+import logo from '../../assets/img/fi-sr-apps.svg';
+import CtaQuizz from '../../components/atoms/CtaQuizz';
 import {Link} from 'react-router-dom';
 
 function Header() {
