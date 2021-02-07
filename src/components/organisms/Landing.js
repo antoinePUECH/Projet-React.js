@@ -1,13 +1,14 @@
 import React from 'react';
-import illu from '../assets/img/undraw2.png';
-import '../sass/components/_content1.scss';
+import illu from '../../assets/img/undraw2.png';
+import '../../sass/components/_content1.scss';
 //import DarkMode from './Darkmode';
-import CtaQuizz from './CtaQuizz';
+import CtaQuizz from '../atoms/CtaQuizz';
 
 
 const Landing = () => {
     return (
         <React.Fragment>
+            <h1 className="welcome">Bienvenue sur nos <span>quizz</span> !</h1>
             <section className="content1">
                 <div className="txt">
                     <h1>

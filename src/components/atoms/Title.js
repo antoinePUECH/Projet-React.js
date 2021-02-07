@@ -1,5 +1,5 @@
-import '../sass/components/_header.scss';
-import '../sass/components/_title.scss';
+
+import '../../sass/components/_title.scss';
 
 const Title = (props) => {
     return (

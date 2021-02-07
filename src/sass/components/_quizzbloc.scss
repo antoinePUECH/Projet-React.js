@@ -2,12 +2,12 @@
 @import "../helpers/_responsive.scss";
 
 .quizzBloc {
-    margin-top: 3vh;
+    margin: 2vh;
     width: 35vw;
     background-color: $dark;
     position: relative;
     border-radius: 10px;
-    height: 25vh;
+    height: 30vh;
 
     .fond, .filter{
         top: 0;
@@ -23,8 +23,7 @@
             width: 100%;
             border-radius: 10px;
             background-repeat: no-repeat;
-            background-position: center center;
-            min-height: 25vh;
+            min-height: 30vh;
         }
     }
 
@@ -45,5 +44,9 @@
 @media screen and (max-width : $resw414){
     .quizzBloc{
         width: 85vw;
+        height: 25vh;
+        img{
+            min-height: 25vh !important;
+        }
     }
 }

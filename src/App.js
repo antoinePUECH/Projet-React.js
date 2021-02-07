@@ -1,12 +1,14 @@
 import React from 'react';
 import './sass/_app.scss';
-import Header from './components/Header';
-import Quizz1 from './components/Quizz1';
-import Quizzs from './components/Quizzs';
-import Landing from './components/Landing';
+import Header from './components/molecules/Header';
+import Quizz1 from './components/organisms/Quizz1';
+import Quizzs from './components/organisms/Quizzs';
+import Landing from './components/organisms/Landing';
 import {Switch, Route} from 'react-router-dom';
-import ScoreShow from './components/ScoreShow';
-import Quizz2 from './components/Quizz2';
+import ScoreShow from './components/organisms/ScoreShow';
+import Quizz2 from './components/organisms/Quizz2';
+import Quizz3 from './components/organisms/Quizz3';
+import Quizz4 from './components/organisms/Quizz4';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
       </Route>
       <Route exact path="/quizz2">
         <Quizz2></Quizz2>
+      </Route>
+      <Route exact path="/quizz3">
+        <Quizz3></Quizz3>
+      </Route>
+      <Route exact path="/quizz4">
+        <Quizz4></Quizz4>
       </Route>
       <Route exact path="/landing">
         <Landing></Landing>
