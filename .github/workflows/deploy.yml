@@ -24,14 +24,14 @@ jobs:
       - name: "Install yarn"
         run: npm install yarn
       
+      - name: "Install depedencies"
+        run: yarn install
+      
       - name: "Instal eslint"
         run: npm i -g eslint
 
       - name: "Linter eslint"
         run: eslint src/components/atoms/** && eslint src/components/molecules/Header.js && eslint src/components/organisms/**
-      
-      - name: "Install depedencies"
-        run: yarn install
 
       - name: "Build app"
         run: yarn build
