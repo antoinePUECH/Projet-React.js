@@ -31,7 +31,7 @@ jobs:
         run: npm i -g eslint
 
       - name: "Linter eslint"
-        run: eslint src/components/atoms/** && eslint src/components/molecules/Header.js && eslint src/components/organisms/**
+        run: eslint src/components/**
 
       - name: "Build app"
         run: yarn build
