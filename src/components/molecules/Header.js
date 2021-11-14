@@ -30,11 +30,7 @@ function Header() {
     return (
         <header role="banner" className={scroll ? "header-scroll" : "header"}>
             <div className="logo">
-                <Router>
-                    <Link to="/">
                         <img src={logo} alt="logo"/>
-                    </Link>
-                </Router>
             </div>
             <div className="meteo">
                 <input type="text" id="search" placeholder="Cherchez une ville"></input>
