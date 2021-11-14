@@ -22,17 +22,17 @@ jobs:
       # - name: "Install yarn"
       #   run: npm install yarn
       
-      # - name: "Install depedencies"
-        # run: yarn install
+      - name: "Install depedencies"
+        run: yarn install
       
-      # - name: "Instal eslint"
-      #   run: npm i -g eslint
+      - name: "Instal eslint"
+        run: npm i -g eslint
 
-      # - name: "Linter eslint"
-      #   run: eslint src/components/**
+      - name: "Linter eslint"
+        run: eslint src/components/**
 
-      # - name: "Build app"
-      #   run: yarn build
+      - name: "Build app"
+        run: yarn build
 
       - name: "Install ruby"
         uses: ruby/setup-ruby@v1
