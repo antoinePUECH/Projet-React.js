@@ -3,6 +3,7 @@ import $ from 'jquery'
 import '../../sass/components/_header.scss';
 import logo from '../../assets/img/fi-sr-apps.svg';
 import CtaQuizz from '../../components/atoms/CtaQuizz';
+import {Link} from 'react-router-dom';
 
 function Header() {
 
@@ -29,7 +30,9 @@ function Header() {
     return (
         <header role="banner" className={scroll ? "header-scroll" : "header"}>
             <div className="logo">
-                        <img src={logo} alt="logo"/>
+                <Link to="/">
+                    <img src={logo} alt="logo"/>
+                </Link>
             </div>
             <div className="meteo">
                 <input type="text" id="search" placeholder="Cherchez une ville"></input>

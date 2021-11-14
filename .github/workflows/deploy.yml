@@ -3,7 +3,6 @@ name: CD/CI
 on:
   push:
     branches:
-      - develop
       - figueras
       - puech-develop
 
@@ -24,11 +23,14 @@ jobs:
       - name: "Install yarn"
         run: npm install yarn
       
+      - name: "Instal eslint"
+        run: npm i -g eslint
+
+      - name: "Linter"
+        run: eslint src/components/**
+      
       - name: "Install depedencies"
         run: yarn install
 
       - name: "Build app"
         run: yarn build
-
-      - name: "Run test"
-        run: yarn test

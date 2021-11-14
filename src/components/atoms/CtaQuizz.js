@@ -1,14 +1,14 @@
-import { Link, Router } from "react-router-dom";
-import "../../sass/components/_ctaquizz.scss";
+import {Link} from 'react-router-dom';
+import '../../sass/components/_ctaquizz.scss';
 
 const CtaQuizz = (props) => {
-  return (
-    <Router>
-      <Link to={props.to}>
-        <button className="ctaQuizz">{props.txt}</button>
-      </Link>
-    </Router>
-  );
-};
+    return(
+        <Link to={props.to}>
+            <button className="ctaQuizz">
+                {props.txt}
+            </button>
+        </Link>
+    )
+}
 
-export default CtaQuizz;
+export default CtaQuizz
