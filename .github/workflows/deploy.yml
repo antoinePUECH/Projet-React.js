@@ -22,22 +22,25 @@ jobs:
       - name: "Install depedencies"
         run: yarn install
       
-      - name: "Instal eslint"
-        run: npm i -g eslint
-
-      - name: "Linter eslint"
-        run: eslint src/components/**
-
-      - name: "Build app"
-        run: yarn build
-
-      - name: "Install ruby"
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7
+      - name: "Test"
+        run: yarn test
       
-      - name: "Install dpl"
-        run: gem install dpl
+      # - name: "Instal eslint"
+      #   run: npm i -g eslint
 
-      - name: "Deploy to heroku"
-        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY_PRE_PROD}} --skip_cleanup=true
+      # - name: "Linter eslint"
+      #   run: eslint src/components/**
+
+      # - name: "Build app"
+      #   run: yarn build
+
+      # - name: "Install ruby"
+      #   uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: 2.7
+      
+      # - name: "Install dpl"
+      #   run: gem install dpl
+
+      # - name: "Deploy to heroku"
+      #   run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY_PRE_PROD}} --skip_cleanup=true
