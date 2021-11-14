@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - develop
-      - figueras
-      - puech-develop
 
 jobs:
   ci-cd:
@@ -35,3 +33,14 @@ jobs:
 
       - name: "Build app"
         run: yarn build
+
+      - name: "Install ruby"
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      
+      - name: "Install dpl"
+        run: gem install dpl
+
+      - name: "Deploy to heroku"
+        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY}} --skip_cleanup=true
