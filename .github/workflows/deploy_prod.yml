@@ -1,13 +1,13 @@
-name: CD/CI
+name: "CI Master"
 
 on:
-  push:
+  pull_request:
     branches:
-      - develop
+      - master
 
 jobs:
   ci-cd:
-    name: CI/CD
+    name: mergeMaster
     runs-on: ubuntu-latest
 
     steps:
@@ -40,4 +40,4 @@ jobs:
         run: gem install dpl
 
       - name: "Deploy to heroku"
-        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY_PRE_PROD}} --skip_cleanup=true
+        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP_PROD}} --api-key=${{secrets.HEROKU_API_KEY_PROD}} --skip_cleanup=true
