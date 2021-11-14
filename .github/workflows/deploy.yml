@@ -39,5 +39,5 @@ jobs:
       - name: "Install dpl"
         run: gem install dpl
 
-      # - name: "Deploy to heroku"
-      #   run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY_PRE_PROD}} --skip_cleanup=true
+      - name: "Deploy to heroku"
+        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY_PRE_PROD}} --skip_cleanup=true
