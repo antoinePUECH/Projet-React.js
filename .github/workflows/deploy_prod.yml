@@ -21,12 +21,6 @@ jobs:
       
       - name: "Install depedencies"
         run: yarn install
-      
-      - name: "Instal eslint"
-        run: npm i -g eslint
-
-      - name: "Linter eslint"
-        run: eslint src/components/**
 
       - name: "Build app"
         run: yarn build
