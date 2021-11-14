@@ -1,0 +1,10 @@
+@import '../helpers/_colors.scss';
+@import '../helpers/font.scss';
+
+.title{
+    padding: 5vh 0;
+    font-size: 35px;
+    text-align: center;
+    font-family: $font;
+    font-weight: 800;
+}

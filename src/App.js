@@ -1,24 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
 import './sass/_app.scss';
+import Header from './components/molecules/Header';
+import Quizz1 from './components/organisms/Quizz1';
+import Quizzs from './components/organisms/Quizzs';
+import Landing from './components/organisms/Landing';
+import {Switch, Route} from 'react-router-dom';
+import ScoreShow from './components/organisms/ScoreShow';
+import Quizz2 from './components/organisms/Quizz2';
+import Quizz3 from './components/organisms/Quizz3';
+import Quizz4 from './components/organisms/Quizz4';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <React.Fragment>
+     <Header/>
+    <Switch>
+      <Route exact path="/">
+        <Landing></Landing>
+      </Route>
+      <Route exact path="/quizzs">
+        <Quizzs></Quizzs>
+      </Route>
+      <Route exact path="/quizz1">
+        <Quizz1></Quizz1>
+      </Route>
+      <Route exact path="/quizz2">
+        <Quizz2></Quizz2>
+      </Route>
+      <Route exact path="/quizz3">
+        <Quizz3></Quizz3>
+      </Route>
+      <Route exact path="/quizz4">
+        <Quizz4></Quizz4>
+      </Route>
+      <Route exact path="/landing">
+        <Landing></Landing>
+      </Route>
+      <Route exact path="/scoreShow">
+        <ScoreShow></ScoreShow>
+      </Route>
+    </Switch>
+   </React.Fragment>
   );
 }
 

@@ -1,0 +1,37 @@
+name: "CI Master"
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  ci-cd:
+    name: mergeMaster
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Init repository"
+        uses: actions/checkout@v2
+
+      - name: "Setup Node"
+        uses: actions/setup-node@v2
+        with: 
+          node-version: '15'
+      
+      - name: "Install depedencies"
+        run: yarn install
+
+      - name: "Build app"
+        run: yarn build
+
+      - name: "Install ruby"
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      
+      - name: "Install dpl"
+        run: gem install dpl
+
+      - name: "Deploy to heroku"
+        run: dpl --provider=heroku --app=${{secrets.HEROKU_APP_PROD}} --api-key=${{secrets.HEROKU_API_KEY_PROD}} --skip_cleanup=true

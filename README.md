@@ -1,3 +1,64 @@
+# Steps of CD/CI
+## On push to pre prod
+- init repository 
+Sinon on ne peux pas voir notre code
+
+- setup Node JS
+pour avoir accès a node 
+
+- yarn install
+permet d'installer les dépendences et de mettre a jour le Yarn.lock pour eviter que le deploiement heroku crash
+
+- instal eslint
+commande pour installer le linter
+
+- Linter
+Linter qui verifie dans tous les fichiers du dossier component que l'indentation et qu'il n'y ait pas d'érreur de syntax
+
+- Yarn build
+build l'app pour pouvoir creer un repertoir build qui sera deployer sur heroku
+
+- Install ruby
+on install Ruby pour pouvoir lancer la commande gem
+
+- Install dpl
+on install dpl pour pouvoir lancer la commande pour deployer l'app
+
+- Deploy to Heroku
+on lance la commande pour deployer la pre prod
+
+///////////////
+
+## on pull request to master
+
+- init repository 
+Sinon on ne peux pas voir notre code
+
+- setup Node JS
+pour avoir accès a node 
+
+- yarn install
+permet d'installer les dépendences et de mettre a jour le Yarn.lock pour eviter que le deploiement heroku crash
+
+- Yarn build
+build l'app pour pouvoir creer un repertoir build qui sera deployer sur heroku
+
+- Install ruby
+on install Ruby pour pouvoir lancer la commande gem
+
+- Install dpl
+on install dpl pour pouvoir lancer la commande pour deployer l'app
+
+- Deploy to Heroku
+on lance la commande pour deployer la prod
+
+
+# Link to pre prod : https://pre-prod-project.herokuapp.com/
+
+# Link to prod : https://react-prod-app-iim.herokuapp.com/
+
+////////////////////////
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

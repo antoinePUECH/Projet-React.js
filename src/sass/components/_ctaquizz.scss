@@ -1,0 +1,27 @@
+@import "../helpers/_colors.scss";
+@import "../helpers/font";
+
+button{
+    padding: 17px 40px;
+    font-size: 18px;
+    font-family: $font;
+    background-color: $orange;
+    color: $white;
+    border: transparent;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+    a{
+        color : $white;
+        text-decoration: none;
+    }
+
+    &:hover{
+        background-color: $dark;
+        text-decoration: none;
+        color : $white;
+        transition: all 0.3s ease-in-out;
+    }
+
+}

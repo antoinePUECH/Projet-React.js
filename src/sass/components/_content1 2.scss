@@ -1,0 +1,105 @@
+@import "../helpers/_font.scss";
+@import "../helpers/_colors.scss";
+@import "../helpers/_responsive.scss";
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.welcome {
+    font-size: 4rem;
+    text-align: center;
+    font-family: $font;
+    color: $orange;
+    text-transform: uppercase;
+    padding-top: 3vh;
+
+    span {
+        color: $blue;
+    }
+}
+.content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5vh 5vw;
+    justify-content: space-between;
+
+    .txt{
+        padding: 13% 0 13% 8%;
+        font-family: $font;
+        width: 30vw;
+        z-index: 10;
+        h1{
+            font-size: 50px;
+            font-weight: 800;
+        }
+        p{
+            padding-top: 1vh;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        button{
+            margin-top: 5vh;
+        }
+    }
+
+    .illu {
+        z-index: 5;
+        width: 55vw;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : $resw1225){
+    .content1{
+        
+        .txt{
+            padding: 13% 0 13% 3%; 
+        }
+    }
+}
+
+
+@media screen and (max-width : $resw1024) {
+    .content1{
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .txt{
+            width: 55vw;
+            padding: 13% 0;
+            text-align: center;
+        }
+        .illu>img {
+            width: 100vw;
+        }
+    }
+}
+
+@media screen and (max-width: $resw768){
+    .welcome {
+        font-size: 40px;
+    }
+    .content1{
+        .txt{
+            width: 85vw;
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : $resw414){
+    .content1{
+        .txt{
+            p{
+                font-size: 16px;
+            }   
+        }
+    }
+}

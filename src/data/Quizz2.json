@@ -1,0 +1,214 @@
+{
+    "Quizz2": [
+      {
+        "questionTitle": "Que faut-il distiller pour obtenir du whisky",
+        "answers": [
+          {
+            "answerTitle": "De la pomme",
+            "isValid": false
+          },
+          {
+            "answerTitle": "De la canne à sucre",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Des céreales maltés",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Des figues",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Combien de famille de whisky existe-t-il",
+        "answers": [
+          {
+            "answerTitle": "2",
+            "isValid": false
+          },
+          {
+            "answerTitle": "3",
+            "isValid": false
+          },
+          {
+            "answerTitle": "4",
+            "isValid": true
+          },
+          {
+            "answerTitle": "5",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "De quel pays est originaire le whisky",
+        "answers": [
+          {
+            "answerTitle": "Irlande",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Ecosse",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Japon",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Argentine",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Combien de litres de whisky consomment les français chaque année",
+        "answers": [
+          {
+            "answerTitle": "142 millions",
+            "isValid": true
+          },
+          {
+            "answerTitle": "68 millions",
+            "isValid": false
+          },
+          {
+            "answerTitle": "89 millions",
+            "isValid": false
+          },
+          {
+            "answerTitle": "175 millions",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel est la bouteille de whisky la plus chère du monde",
+        "answers": [
+          {
+            "answerTitle": "Whisky Springbank",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Macallan M",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Macallan Valerio Adami",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Isabella’s Islay",
+            "isValid": true
+          }
+        ]
+      },
+      {
+        "questionTitle": "Quel whisky a remporté le titre de meilleur whisky du monde (single malt)",
+        "answers": [
+          {
+            "answerTitle": "Teeling Whiskey Vintage Reserve (Irlande)",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Kavalan Whisky Oloroso Sherry Oak (Taïwan)",
+            "isValid": false
+          },
+          {
+            "answerTitle": "The Hakushu (Japon)",
+            "isValid": true
+          },
+          {
+            "answerTitle": "The GlenDronach Parliament (Ecosse)",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "En moyenne quelle est la quantité de whisky mit dans un Irish Coffee",
+        "answers": [
+          {
+            "answerTitle": "1 cl",
+            "isValid": false
+          },
+          {
+            "answerTitle": "2 cl",
+            "isValid": false
+          },
+          {
+            "answerTitle": "3 cl",
+            "isValid": false
+          },
+          {
+            "answerTitle": "4 cl",
+            "isValid": true
+          }
+        ]
+      },
+      {
+        "questionTitle": "Que signifie le mot whisky en gaelique écossais",
+        "answers": [
+          {
+            "answerTitle": "Alcool",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Eau de vie",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Fait main",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Céréales",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "Pour avoir droit à l'appellation Scotch, quelle est la durée minimale de vieillissement en fût",
+        "answers": [
+          {
+            "answerTitle": "1 an",
+            "isValid": false
+          },
+          {
+            "answerTitle": "2 ans",
+            "isValid": false
+          },
+          {
+            "answerTitle": "3 ans",
+            "isValid": true
+          },
+          {
+            "answerTitle": "4 ans",
+            "isValid": false
+          }
+        ]
+      },
+      {
+        "questionTitle": "A quel stade de son élaboration le whisky obtient-t-il sa teneur en alcool",
+        "answers": [
+          {
+            "answerTitle": "Maltage",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Viellissement",
+            "isValid": true
+          },
+          {
+            "answerTitle": "Fermentation",
+            "isValid": false
+          },
+          {
+            "answerTitle": "Distillation",
+            "isValid": false
+          }
+        ]
+      }
+    ]
+  }
