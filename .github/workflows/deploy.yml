@@ -28,7 +28,7 @@ jobs:
         run: npm i -g eslint
 
       - name: "Linter eslint"
-        run: eslint src/components/**
+        run: eslint src/components/atoms/** && eslint src/components/molecules/Header.js && eslint src/components/organisms/**
       
       - name: "Install depedencies"
         run: yarn install
