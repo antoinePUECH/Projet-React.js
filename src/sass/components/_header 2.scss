@@ -1,0 +1,71 @@
+@import '../helpers/font';
+@import '../helpers/_colors.scss';
+@import '../helpers/responsive';
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 0 5vw;
+    height : 12vh;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    justify-content: space-between;
+    line-height: 12vh;
+
+    &.header{
+        background-color:$dark;
+    }
+
+    &.header-scroll {
+        background-color: $blue;
+        top: 0;
+        left: 0;
+        position: sticky;
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .meteo {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        font-family: $font;
+        #search {
+            padding: 17px;
+            color: white;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: $orange solid 2px;
+            background-color: transparent;
+            text-transform: capitalize;
+        }
+        #search::placeholder {
+            color: white;
+            font-family: $font;
+        }
+        button {
+            margin: 0 25px;
+        }
+        #zone_meteo {
+            color: white;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width : $resw768){
+    .meteo {
+        display: none !important;
+    }
+}
