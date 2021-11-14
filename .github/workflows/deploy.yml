@@ -42,10 +42,14 @@ jobs:
       - name: "Deploy to heroku"
         run: dpl --provider=heroku --app=${{secrets.HEROKU_APP}} --api-key=${{secrets.HEROKU_API_KEY_PRE_PROD}} --skip_cleanup=true
 
+
+name: mergeMaster
+on:
   pull_request:
     branches:
       - master
 
+jobs:
   ci-cd:
     name: mergeMaster
     runs-on: ubuntu-latest
